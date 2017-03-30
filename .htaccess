@@ -1,0 +1,4 @@
+Options +Indexes
+Allow from all
+AddDefaultCharset utf-8
+AddHandler server-parsed .html

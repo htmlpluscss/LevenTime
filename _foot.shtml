@@ -1,0 +1,7 @@
+<!--#include file="_footer.shtml"-->
+
+	<script defer src="/js/jquery.min.js"></script>
+	<script defer src="/js/js.js"></script>
+
+</body>
+</html>

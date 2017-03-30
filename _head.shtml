@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title><!--#echo var="title" --></title>
+	<meta charset="utf-8">
+	<link href="/css/default.css" rel="stylesheet">
+	<link href="/css/style.css" rel="stylesheet">
+	<link href="/css/media.css" rel="stylesheet">
+	<link href="/favicon.png" rel="apple-touch-icon-precomposed">
+	<link href="//fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+
+<body class="<!--#echo var=page --> flexbox flexbox--column">
+
+<!--#include file="_header.shtml"-->
