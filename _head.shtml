@@ -1,17 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<title><!--#echo var="title" --></title>
 	<meta charset="utf-8">
 	<link href="/css/default.css" rel="stylesheet">
 	<link href="/css/style.css" rel="stylesheet">
-	<link href="/css/media.css" rel="stylesheet">
 	<link href="/favicon.png" rel="apple-touch-icon-precomposed">
-	<link href="//fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
 	<meta name="format-detection" content="telephone=no">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="viewport" content="width=1000, initial-scale=1, maximum-scale=1">
 </head>
 
-<body class="<!--#echo var=page --> flexbox flexbox--column">
+<body class="flexbox flexbox--column">
 
-<!--#include file="_header.shtml"-->
+	<header id="header" class="header">
+
+		<div class="center clr">
+
+			<a class="logo pull-left" href="/"><img src="/images/logo.svg" alt=""></a>
+
+			<div class="menu-mobile">
+
+				<ul class="header__btn pull-right hidden-sm">
+
+					<li><a class="btn btn--44 btn--outline">Log In</a></li>
+					<li><a class="btn btn--44">Get started</a></li>
+
+				</ul>
+
+				<div class="menu-mobile__md">
+
+					<a class="menu-mobile__logo" href="/"></a>
+					<a class="menu-mobile-toggle menu-mobile-toggle--close"></a>
+
+					<div class="header__lang pull-right hidden-md">
+
+						<ul class="lang-toggle">
+
+							<li class="lang-toggle-item lang-toggle-item--current">
+								<a href="/anketa.html?en" class="lang-toggle-link">English</a>
+							</li>
+							<li class="lang-toggle-item">
+								<a href="/anketa.html?sp" class="lang-toggle-link">Spanish</a>
+							</li>
+							<li class="lang-toggle-item">
+								<a href="/anketa.html?ru" class="lang-toggle-link">Russian</a>
+							</li>
+
+						</ul>
+
+						<a class="lang-toggle-show"></a>
+
+					</div>
+
+					<div class="menu-mobile__md-box">
+
+						<ul class="header__menu pull-right md-float-none">
+
+							<li><a href="">Credit line</a></li>
+							<li><a href="">Personal loan</a></li>
+							<li><a href="">Contact Us</a></li>
+							<li class="header__menu-toggle">
+								<ul class="header__menu-sub">
+									<li><a href="">Mini</a></li>
+									<li><a href="">Blog</a></li>
+									<li><a href="">News</a></li>
+									<li><a href="">About</a></li>
+								</ul>
+							</li>
+
+						</ul>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</header>
