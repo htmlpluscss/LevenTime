@@ -2,22 +2,19 @@
 	margin: 0;
 	padding: 0;
 	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 html {
-	height: 100%;
 	-ms-overflow-style: scrollbar;
 }
 body {
 	color: #161431;
 	position: relative;
-	font: 14px/18px 'Roboto', sans-serif;
+	font: 14px/18px 'Proxima Nova', 'ProximaNova', sans-serif;
 	-webkit-text-size-adjust:none;
 	-webkit-overflow-scrolling: touch;
-	min-width: 320px;
-	height: 100%;
-	overflow-y: scroll;
+	min-width: 960px;
+	background: url(1.jpg) center 0;
 }
 a {
 	color: inherit;
@@ -58,7 +55,7 @@ header, main, nav, time, section, article, aside, footer {
 
 .center {
 	margin: 0 auto;
-	max-width: 1140px;
+	max-width: 960px;
 	position: relative;
 }
 
