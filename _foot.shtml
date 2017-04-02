@@ -15,6 +15,13 @@
 			</li>
 		</ul>
 
+		<p class="footer__support">Служба поддержки <br><a href="mailto:support@leventime.com">support@leventime.com</a></p>
+
+		<ul class="footer__menu">
+			<li><a data-alert-up="tester">Условия использования</a></li>
+			<li><a data-alert-up="login">Вход для организаций</a></li>
+		</ul>
+
 		<a class="footer__logo">LevenTime</a>
 
 		<p class="footer__copyright">Copyright © 2017</p>
@@ -24,7 +31,10 @@
 <!--#include file="_alert_up.shtml"-->
 
 	<link href="/css/style.css" rel="stylesheet">
+
 	<script defer src="/js/jquery.min.js"></script>
+	<script defer src="/js/jquery.mousewheel.js"></script>
+	<script defer src="/js/jquery.jscrollpane.min.js"></script>
 	<script defer src="/js/js.js"></script>
 
 </body>

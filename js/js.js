@@ -16,6 +16,7 @@ http://htmlpluscss.ru
 		resizeTimeoutId,
 		body = $('body'),
 		$window = $(window),
+		h1 = $('.h1'),
 		parallax = $('.app-download__parallax'),
 		parallaxImg = parallax.children(),
 		parallaxTop,
@@ -32,6 +33,15 @@ http://htmlpluscss.ru
 		},
 		scroll: function(){
 			windowScrollTop = $window.scrollTop();
+
+			// h1
+			h1.each(function(){
+				var t = $(this),
+					tTop = t.offset().top;
+				if(windowScrollTop + windowHeight > tTop && windowScrollTop < tTop){
+//					20 - t.width()
+				}
+			});
 
 			// parallax
 			parallaxImgTop = parallaxTop + parallaxHeight - windowScrollTop;
@@ -262,8 +272,8 @@ http://htmlpluscss.ru
 		box.on('click',function(event){
 			var t = $(event.target);
 			if(t.is('.alert_up') || t.is('.alert_up__close')){
-				box.add(item).addClass('hide');
-				body.removeClass('hidden scroolbarwidth');
+				item.addClass('hide');
+				body.removeClass('hidden alert_up-show scroolbarwidth');
 			}
 		});
 
@@ -276,11 +286,11 @@ http://htmlpluscss.ru
 
 		showAlertUp = function (selector) {
 			var itemActive = item.filter('.alert_up__item--'+selector);
-			body.addClass('hidden');
+			body.addClass('hidden alert_up-show');
 			body.toggleClass('scroolbarwidth', windowHeight < body.height());
 			box.toggleClass('flexbox--align-center', windowHeight > itemActive.outerHeight());
 			item.not(itemActive).addClass('hide');
-			box.add(itemActive).removeClass('hide').focus();
+			itemActive.removeClass('hide').focus();
 		}
 
 		$window.on('keydown',function(e){
@@ -300,6 +310,13 @@ http://htmlpluscss.ru
 
 	$('[data-alert-up]').alertUp();
 
+// focus-email
+	$('.focus-email').on('click', function(){
+		$(this).closest('.alert_up__item').find('[type="email"]').focus();
+	});
+
+// scroll-pane
+	$('.scroll-pane').jScrollPane();
 
 // cssAnimation('animation/transition')
 function cssAnimation(a){var b,c,d=document.createElement("cssanimation");switch(a){case'animation':b={"animation":"animationend","OAnimation":"oAnimationEnd","MozAnimation":"animationend","WebkitAnimation":"webkitAnimationEnd"};break;case'transition':b={"transition":"transitionend","OTransition":"oTransitionEnd","MozTransition":"transitionend","WebkitTransition":"webkitTransitionEnd"}}for(c in b)if(d.style[c]!==undefined)return b[c]};

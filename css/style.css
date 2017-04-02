@@ -31,6 +31,9 @@
 	font-style: normal;
 }
 
+body {
+	background: url(1.jpg) center 0 no-repeat;
+}
 
 /* img-text
 -----------------------------------------------------------------------------*/
@@ -365,25 +368,35 @@
 	top: 0;
 	left: 0;
 	right: 0;
-	bottom: 0;
+	height: 0;
 	z-index: 11;
-	padding: 20px 30px;
-	overflow: auto;
-	background-color: rgba(0,0,0,.5);
-	-webkit-overflow-scrolling: touch;
+	overflow: hidden;
+	background-color: rgba(0,0,0,.48);
 }
+.alert_up-show .alert_up {
+	height: 100%;
+	overflow: auto;
+}
+
 .alert_up__item {
-	width: 540px;
+	width: 620px;
 	max-width: 100%;
 	background: #fff;
-}
-
-
-.alert_up__box {
+	padding: 20px;
+	text-align: center;
+	border-radius: 5px;
 	position: relative;
-	padding: 10px;
+	min-height: 208px;
 }
 
+.alert_up__close--ico {
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	top: 0;
+	right: 0;
+	background: url(/images/sprite.png) -476px -92px;
+}
 .scroolbar {
 	width:100px;
 	height:100px;
@@ -394,4 +407,97 @@
 }
 .scroolbar__item {
 	height:100px;
+}
+
+.alert_up h4 {
+	text-align: center;
+	color: #03a9f5;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 38px;
+	font-weight: 400;
+}
+.alert_up p {
+	text-align: center;
+	color: #474747;
+	font-size: 16px;
+	line-height: 19px;
+	margin: 13px;
+	padding: 10px;
+}
+.alert_up p a {
+	color: #03a9f5;
+}
+.alert_up .input {
+	width: 180px;
+	margin: 32px auto 20px;
+}
+
+.alert_up__btns {
+	text-align: center;
+}
+.alert_up__btns .btn {
+	width: 140px;
+	margin: 16px 8px;
+	text-transform: uppercase;
+}
+
+.alert_up__item--registr-ok {
+	min-height: 170px;
+}
+.alert_up__item--registr-ok p {
+	padding: 0;
+}
+
+.scroll-pane {
+	margin: 28px 0 14px 122px;
+	width: 348px;
+	height: 256px;
+	overflow: auto;
+}
+.scroll-pane p {
+	font-size: 12px;
+	line-height: 18px;
+	color: #9b9b9b;
+	padding: 0;
+	margin: 18px;
+	text-align: left;
+}
+.scroll-pane p:last-child,
+.scroll-pane p:first-child {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.jspContainer {
+	overflow: hidden;
+	position: relative;
+}
+.jspPane {
+	position: absolute;
+}
+.jspVerticalBar {
+	position: absolute;
+	top: 0;
+	right: 2px;
+	width: 8px;
+	height: 100%;
+	background: #f0f0f0;
+	border-radius: 4px;
+}
+.jspTrack {
+	position: relative;
+}
+.jspDrag {
+	background: #03a9f5;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	border-radius: 4px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.jspDrag:hover,
+.jspDrag:active {
+	box-shadow: 0 0 2px rgba(0,0,0,.5);
 }

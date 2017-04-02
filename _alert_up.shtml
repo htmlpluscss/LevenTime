@@ -1,56 +1,210 @@
-	<div class="alert_up flexbox flexbox--center flexbox--align-center hide">
+	<div class="alert_up flexbox flexbox--center flexbox--align-center">
 
-		<div class="alert_up__item alert_up__item--android">
+		<div class="alert_up__item alert_up__item--registr-ok">
 
-			<div class="alert_up__box">
+			<h4>Регистрация</h4>
 
-			</div>
+			<p>На указанный E-mail отправлено письмо с <br>инструкцией дальнейшей регистрации.</p>
+
+			<a class="alert_up__close alert_up__close--ico"></a>
 
 		</div>
 
+		<div class="alert_up__item alert_up__item--info">
 
-		<div class="alert_up__item alert_up__item--ios">
+			<p>Мы выслали всю необходимую информацию по<br> тестированию на указанный вами E-mail.</p>
 
-			<div class="alert_up__box">
+			<div class="alert_up__btns">
 
-				<form class="alert_up__item alert_up__item--sms" novalidate autocomplete="off">
+				<a class="alert_up__close btn">Закрыть</a>
 
-					<h3 class="alert_up__head h1">Форма sms подтверждения</h3>
+			</div>
 
-					<p>На Ваш номер <span class="color-green">+7 (900) 12-15-70</span> выслан <br>код подтверждения</p>
+			<a class="alert_up__close alert_up__close--ico"></a>
 
-					<div class="alert_up__fieldset">
+		</div>
 
-						<input class="input timer-tictak__input" type="tel" placeholder="Код потверждения" maxlength="4">
+		<div class="alert_up__item alert_up__item--android">
 
-						<label class="btn btn--48">
-							Подтвердить
-							<input type="submit">
-						</label>
+			<p>Версия на Android находится на стадии тестирования. <br>Хотите принять участие в тестировании?</p>
+
+			<div class="alert_up__btns">
+
+				<a class="btn" data-alert-up="rules">Да</a>
+				<a class="btn btn--white" data-alert-up="step-1">Нет</a>
+
+			</div>
+
+			<a class="alert_up__close alert_up__close--ico"></a>
+
+		</div>
+
+		<form class="alert_up__item alert_up__item--step-1" novalidate>
+
+			<p>В таком случае возможно вы хотите чтобы мы вас уведомили <br>о релизе приложения? Укажите свой <a class="focus-email">E-mail.</a></p>
+
+			<input type="email" class="input">
+
+			<div class="alert_up__btns">
+
+				<a class="btn alert_up__close">Подтвердить</a>
+
+				<a class="alert_up__close btn btn--white">Отказаться</a>
+
+			</div>
+
+			<a class="alert_up__close alert_up__close--ico"></a>
+
+		</form>
+
+		<form class="alert_up__item alert_up__item--ios" novalidate>
+
+			<p>Выпуск IOS Версии ожидается в ближайшее время. <br>Оставьте свой <a class="focus-email">e-mail</a>, для того чтобы мы оповестили о релизе приложения</p>
+
+			<input type="email" class="input">
+
+			<div class="alert_up__btns">
+
+				<a class="btn alert_up__close">Отправить</a>
+
+			</div>
+
+			<a class="alert_up__close alert_up__close--ico"></a>
+
+		</form>
+
+		<form class="alert_up__item alert_up__item--tester" novalidate>
+
+			<p>Для того чтобы мы включили вас в тестировщики, укажите свой <a class="focus-email">E-mail</a></p>
+
+			<input type="email" class="input">
+
+			<div class="alert_up__btns">
+
+				<a class="btn" data-alert-up="info">Подтвердить</a>
+
+			</div>
+
+			<a class="alert_up__close alert_up__close--ico"></a>
+
+		</form>
+
+		<div class="alert_up__item alert_up__item--rules">
+
+			<p>Условия участия в тестировании</p>
+
+			<div class="scroll-pane">
+
+				<p>Leventime предоставляет возможность использования дополнительного функционала Сервиса, позволяющего в автоматическом режиме загружать в Сервис на Сайте, обновлять и продвигать Контекстные объявления с помощью специального файла - фида.</p>
+
+				<p>Параметры Контекстных объявлений, включая ставку стоимости каждого из них, указанные при заполнении такого фида, выгружаются в Рекламную кампанию в Сервисе. Изменение таких параметров недоступно на Сайте и может быть осуществлено исключительно через изменение фида. Применение изменений в Контекстных объявлениях на Сайте, загруженных через фид, производится при очередном обновлении Рекламной кампании, которое осуществляется с периодичностью не чаще, чем 1 раз в 6 часов, если включена опция обновления. Пользователь может устанавливать ставки для каждого Контекстного объявления в фиде, либо применить рекомендованные ставки, либо установить ставку для каждого Контекстного объявления в Сервисе, в Личном кабинете на Сайте.</p>
+
+				<p>Датой начала оказания Услуг считается дата фактической активации Контекстного объявления. При заполнении всех необходимых параметров и успешной выгрузке Контекстных объявлений из фида в Сервис, все Контекстные объявления автоматически активируются.</p>
+
+				<p>Гарантии Пользователя</p>
+
+				<p>1.1. Настоящим Пользователь гарантирует следующее:</p>
+
+				<p>1.1.1. Пользователь не является сотрудником организации, связанной с разработкой, производством и реализацией аналогичных сервисов, предлагаемых третьими лицами.</p>
+
+				<p>1.1.2. Пользователь не оказывает каких-либо услуг Авито, принимает участие в бета-тестировании на добровольных началах и не может требовать какой-либо компенсации и/ или вознаграждения, обусловленных таким участием, в том числе за предоставление Авито обнаруженных недочетов в работе Сервиса и т.д., своих пожеланий и отзывов, связанных с функционирование Сервиса.</p>
+
+				<p>1.1.3. Информация, предоставляемая Пользователем Авито, является достоверной, не нарушает прав третьих лиц, а также может быть использована Авито по собственному усмотрению в целях устранения выявленных неточностей в работе Сервиса в течение неопределенного срока.</p>
+
+				<p>1.1.4. Пользователь, принимая настоящие Условия, гарантирует, что предварительно предпримет все необходимые меры безопасности для защиты данных, записанных в память компьютера Пользователя, будет действовать с осторожностью и ни в коей мере не полагаться на исправное функционирование или работу Сервиса.</p>
+
+				<p>1.1.5. Пользователь понимает и согласен, что самостоятельно несет риск возникновения любых негативных последствий, вызванных ошибками или иными неисправностями функционирования Сервиса.</p>
+
+				<p>1.1.6. Пользователь принимает, что Авито не может гарантировать соответствие использования Сервиса ожидаемым результатам и целям Пользователя, для которых он намерен был его использовать.</p>
+
+				<p>1.1.7. Пользователь согласен, что Авито не несет ответственности за любые дефекты Сервиса, которые значительно уменьшают его пригодность для Пользователя.</p>
+
+				<p>1.1.8. Пользователь подтверждает, что принимает настоящие Условия без каких-либо изъятий и/или оговорок.</p>
+
+				<p>1.1.9. Пользователь принимает, что Сервис может содержать неисправности, неточности с целью выявления которых предлагается участие в бета-тестировании.</p>
+
+			</div>
+
+			<div class="alert_up__btns">
+
+				<a class="btn" data-alert-up="tester">Далее</a>
+
+			</div>
+
+			<a class="alert_up__close alert_up__close--ico"></a>
+
+		</div>
+
+		<div class="alert_up__item alert_up__item--login">
+
+			<div class="flexbox">
+
+				<form class="form-login" novalidate>
+
+					<h4>Авторизация</h4>
+
+					<label class="input-box">
+						E-mail
+						<input type="email" class="input input--error" placeholder="Неправильный е-мейл">
+					</label>
+
+					<label class="input-box">
+						Пароль
+						<input type="password" class="input">
+					</label>
+
+					<a>Забыли пароль?</a>
+
+					<label class="checkbox">
+						Запомнить меня
+						<input type="checkbox" class="hidden-visible">
+						<i class="checkbox__pic"></i>
+					</label>
+
+					<div class="alert_up__btns">
+
+						<a class="btn">Войти</a>
 
 					</div>
 
 				</form>
 
-<div class="hide">
-АВТОРИЗАЦИЯ
-E-mail
-Неправильный е-мейл
-Пароль
-Неправильный пароль
-Забыли пароль?
-Запомнить меня
-войти
-Название организации
-E-mail
-name@mail.com
-Пароль
-Подтверждение пароля
-регистрация
-Пароль дожен содержатьне менее 6 символов
-</div>
+				<form class="form-login" novalidate>
+
+					<h4>Регистрация</h4>
+
+					<label class="input-box">
+						Название организации
+						<input class="input">
+					</label>
+
+					<label class="input-box">
+						E-mail
+						<input type="email" class="input input--valid" value="name@mail.com">
+					</label>
+
+					<label class="input-box">
+						Пароль
+						<input type="password" class="input">
+					</label>
+
+					<label class="input-box">
+						Подтверждение пароля
+						<input type="password" class="input">
+						<span class="help">Пароль дожен содержатьне менее 6 символов</span>
+					</label>
+
+					<div class="alert_up__btns">
+
+						<a class="btn btn--white">Регистрация</a>
+
+					</div>
+
+				</form>
 
 			</div>
+
+			<a class="alert_up__close alert_up__close--ico"></a>
 
 		</div>
 
