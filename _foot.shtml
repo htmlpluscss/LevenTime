@@ -19,25 +19,9 @@
 
 		<p class="footer__copyright">Copyright © 2017</p>
 
-<div class="hide">
-АВТОРИЗАЦИЯ
-E-mail
-Неправильный е-мейл
-Пароль
-Неправильный пароль
-Забыли пароль?
-Запомнить меня
-войти
-Название организации
-E-mail
-name@mail.com
-Пароль
-Подтверждение пароля
-регистрация
-Пароль дожен содержатьне менее 6 символов
-</div>
-
 	</footer>
+
+<!--#include file="_alert_up.shtml"-->
 
 	<link href="/css/style.css" rel="stylesheet">
 	<script defer src="/js/jquery.min.js"></script>

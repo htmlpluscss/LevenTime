@@ -1,0 +1,57 @@
+	<div class="alert_up flexbox flexbox--center flexbox--align-center hide">
+
+		<div class="alert_up__item alert_up__item--android">
+
+			<div class="alert_up__box">
+
+			</div>
+
+		</div>
+
+
+		<div class="alert_up__item alert_up__item--ios">
+
+			<div class="alert_up__box">
+
+				<form class="alert_up__item alert_up__item--sms" novalidate autocomplete="off">
+
+					<h3 class="alert_up__head h1">Форма sms подтверждения</h3>
+
+					<p>На Ваш номер <span class="color-green">+7 (900) 12-15-70</span> выслан <br>код подтверждения</p>
+
+					<div class="alert_up__fieldset">
+
+						<input class="input timer-tictak__input" type="tel" placeholder="Код потверждения" maxlength="4">
+
+						<label class="btn btn--48">
+							Подтвердить
+							<input type="submit">
+						</label>
+
+					</div>
+
+				</form>
+
+<div class="hide">
+АВТОРИЗАЦИЯ
+E-mail
+Неправильный е-мейл
+Пароль
+Неправильный пароль
+Забыли пароль?
+Запомнить меня
+войти
+Название организации
+E-mail
+name@mail.com
+Пароль
+Подтверждение пароля
+регистрация
+Пароль дожен содержатьне менее 6 символов
+</div>
+
+			</div>
+
+		</div>
+
+	</div>

@@ -44,30 +44,32 @@
 
 	</header>
 
-	<aside class="slider-home">
+	<aside class="slider-home slide-show" data-timer="10">
 
-		<div class="center">
+		<ul class="slide-show__box">
 
-			<ul>
+			<li class="slide-show__item slide-show__item--active">
 
-				<li class="slider-home__item">
+				<div class="center slider-home__item flexbox">
 
-					<img src="img/slider-1.png" alt="">
+					<img class="slider-home__img" src="img/slider-1.png" alt="">
 
-					<p>Участвуй в тестировании <br>и получи новый сверхбыстрый<br>безупречный смартфон <b>Xiaomi MI5</b></p>
+					<p class="slider-home__text">
+						Участвуй в тестировании <br>и получи новый сверхбыстрый<br>безупречный смартфон
+						<strong class="slider-home__model">Xiaomi MI5</strong>
+						<a class="slider-home__btn btn btn--outline">Подробнее</a>
+					</p>
 
-					<a class="btn btn--outline">Подробнее</a>
+				</div>
 
-				</li>
-				<li class="slider-home__item">
+			</li>
+			<li class="slide-show__item slider-home__item slider-home__item flexbox">
 
-				</li>
-				<li class="slider-home__item">
+			</li>
+			<li class="slide-show__item slider-home__item slider-home__item flexbox">
 
-				</li>
+			</li>
 
-			</ul>
-
-		</div>
+		</ul>
 
 	</aside>
