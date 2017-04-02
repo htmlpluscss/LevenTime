@@ -1,104 +1,45 @@
-	<footer id="footer" class="footer">
+	<footer class="footer">
 
-		<div class="center center--md">
+		<ul class="social-group flexbox flexbox--center">
+			<li>
+				<a class="social-group__link social-group__link--vk" href="/" target="_blank" rel="nofollow">группа в Контакте</a>
+			</li>
+			<li>
+				<a class="social-group__link social-group__link--fb" href="/" target="_blank" rel="nofollow">группа в Facebook</a>
+			</li>
+			<li>
+				<a class="social-group__link social-group__link--in" href="/" target="_blank" rel="nofollow">группа в Instagram</a>
+			</li>
+			<li>
+				<a class="social-group__link social-group__link--ok" href="/" target="_blank" rel="nofollow">группа в Одноклассниках</a>
+			</li>
+		</ul>
 
-			<div class="clr">
+		<a class="footer__logo">LevenTime</a>
 
-				<div class="footer__contact pull-left sm-float-none">
+		<p class="footer__copyright">Copyright © 2017</p>
 
-					<a href="/" class="logo"><img src="/images/logo.svg" alt=""></a>
-
-					<p class="footer__address">28038 Madrid, Avenida de la Albufera 153</p>
-
-					<a href="tel:902201232" class="footer__tel">902 201 232</a>
-
-					<br>
-
-					<a href="mailto:info@rapictedit.com" class="footer__mail">info@rapictedit.com</a>
-
-					<ul class="social-group clr hidden-sm">
-						<li class="social-group__item">
-							<a class="social-group__link social-group__link--tw" href="/" target="_blank" rel="nofollow">social group in twitter</a>
-						</li>
-						<li class="social-group__item">
-							<a class="social-group__link social-group__link--fb" href="/" target="_blank" rel="nofollow">social group in facebook</a>
-						</li>
-						<li class="social-group__item">
-							<a class="social-group__link social-group__link--yt" href="/" target="_blank" rel="nofollow">YouTube Channel</a>
-						</li>
-					</ul>
-
-				</div>
-
-				<div class="pull-right sm-float-none">
-
-					<div class="footer__item pull-left hidden-sm">
-
-						<h4 class="footer__head">Company</h4>
-
-						<ul>
-							<li><a href="">Home</a></li>
-							<li><a href="">Blog</a></li>
-							<li><a href="">News</a></li>
-							<li><a href="">About</a></li>
-							<li><a href="">Contact Us</a></li>
-						</ul>
-
-					</div>
-
-					<div class="footer__item pull-left hidden-sm">
-
-						<h4 class="footer__head">Legal</h4>
-
-						<ul>
-							<li><a href="">Privacy Policy</a></li>
-							<li><a href="">Legal Notice</a></li>
-							<li><a href="">Cookie Policy</a></li>
-						</ul>
-
-					</div>
-
-					<div class="footer__item pull-left hidden-sm">
-
-						<h4 class="footer__head">Product</h4>
-
-						<ul>
-							<li><a href="">Mini</a></li>
-							<li><a href="">Personal</a></li>
-							<li><a href="">Credit line</a></li>
-						</ul>
-
-					</div>
-
-					<div class="footer__item pull-left md-clear-both md-float-none">
-
-						<h4 class="footer__head hidden-md">Download APP</h4>
-
-						<p class="hidden-md">That’s why we’re blending insightful data science, elegant design</p>
-
-						<a class="footer__google-play pull-left" rel="nofollow" target="_blank" href="/">google play app</a>
-						<a class="footer__app-store pull-left" rel="nofollow" target="_blank" href="/">apple app store</a>
-
-					</div>
-
-				</div>
-
-			</div>
-
-			<hr class="footer__hr">
-
-			<div class="clr">
-
-				<p class="footer__copyright pull-left">2016 © Rapicredit.com. All right reserved.</p>
-
-				<a class="footer__developer pull-right" rel="nofollow" target="_blank" href="//sptnk.co/credit/en/">developer site</a>
-
-			</div>
-
-		</div>
+<div class="hide">
+АВТОРИЗАЦИЯ
+E-mail
+Неправильный е-мейл
+Пароль
+Неправильный пароль
+Забыли пароль?
+Запомнить меня
+войти
+Название организации
+E-mail
+name@mail.com
+Пароль
+Подтверждение пароля
+регистрация
+Пароль дожен содержатьне менее 6 символов
+</div>
 
 	</footer>
 
+	<link href="/css/style.css" rel="stylesheet">
 	<script defer src="/js/jquery.min.js"></script>
 	<script defer src="/js/js.js"></script>
 

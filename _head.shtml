@@ -1,76 +1,40 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<title><!--#echo var="title" --></title>
+	<title>LevenTime</title>
 	<meta charset="utf-8">
 	<link href="/css/default.css" rel="stylesheet">
-	<link href="/css/style.css" rel="stylesheet">
 	<link href="/favicon.png" rel="apple-touch-icon-precomposed">
 	<meta name="format-detection" content="telephone=no">
 	<meta name="viewport" content="width=960, initial-scale=1, maximum-scale=1">
 </head>
 
-<body class="flexbox flexbox--column">
+<body>
 
-	<header id="header" class="header">
+	<header class="header">
 
-		<div class="center clr">
+		<div class="header__top">
 
-			<a class="logo pull-left" href="/"><img src="/images/logo.svg" alt=""></a>
+			<div class="center flexbox">
 
-			<div class="menu-mobile">
+				<a class="header__logo" href="/" title="Открой мир заново">
+					<img src="/images/logo.png" alt="Leventime">
+				</a>
 
-				<ul class="header__btn pull-right hidden-sm">
+				<div class="lang-toggle flexbox__end">
 
-					<li><a class="btn btn--44 btn--outline">Log In</a></li>
-					<li><a class="btn btn--44">Get started</a></li>
+					<ul class="lang-toggle__box">
 
-				</ul>
+						<li class="lang-toggle__item lang-toggle__item--active">
+							<span class="lang-toggle__text">Ru</span>
+						</li>
+						<li class="lang-toggle__item">
+							<a href="/" class="lang-toggle__text">En</a>
+						</li>
 
-				<div class="menu-mobile__md">
+					</ul>
 
-					<a class="menu-mobile__logo" href="/"></a>
-					<a class="menu-mobile-toggle menu-mobile-toggle--close"></a>
-
-					<div class="header__lang pull-right hidden-md">
-
-						<ul class="lang-toggle">
-
-							<li class="lang-toggle-item lang-toggle-item--current">
-								<a href="/anketa.html?en" class="lang-toggle-link">English</a>
-							</li>
-							<li class="lang-toggle-item">
-								<a href="/anketa.html?sp" class="lang-toggle-link">Spanish</a>
-							</li>
-							<li class="lang-toggle-item">
-								<a href="/anketa.html?ru" class="lang-toggle-link">Russian</a>
-							</li>
-
-						</ul>
-
-						<a class="lang-toggle-show"></a>
-
-					</div>
-
-					<div class="menu-mobile__md-box">
-
-						<ul class="header__menu pull-right md-float-none">
-
-							<li><a href="">Credit line</a></li>
-							<li><a href="">Personal loan</a></li>
-							<li><a href="">Contact Us</a></li>
-							<li class="header__menu-toggle">
-								<ul class="header__menu-sub">
-									<li><a href="">Mini</a></li>
-									<li><a href="">Blog</a></li>
-									<li><a href="">News</a></li>
-									<li><a href="">About</a></li>
-								</ul>
-							</li>
-
-						</ul>
-
-					</div>
+					<i class="ico ico--arrow-down"></i>
 
 				</div>
 
@@ -79,3 +43,31 @@
 		</div>
 
 	</header>
+
+	<aside class="slider-home">
+
+		<div class="center">
+
+			<ul>
+
+				<li class="slider-home__item">
+
+					<img src="img/slider-1.png" alt="">
+
+					<p>Участвуй в тестировании <br>и получи новый сверхбыстрый<br>безупречный смартфон <b>Xiaomi MI5</b></p>
+
+					<a class="btn btn--outline">Подробнее</a>
+
+				</li>
+				<li class="slider-home__item">
+
+				</li>
+				<li class="slider-home__item">
+
+				</li>
+
+			</ul>
+
+		</div>
+
+	</aside>
