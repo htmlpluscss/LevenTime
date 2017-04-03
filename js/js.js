@@ -334,11 +334,6 @@ http://htmlpluscss.ru
 
 	$('[data-alert-up]').alertUp();
 
-// focus-email
-	$('.focus-email').on('click', function(){
-		$(this).closest('.alert_up__item').find('[type="email"]').focus();
-	});
-
 // form-login
 	$('.form-login .input').on('focus',function(){
 		$(this).siblings('.input-box__error').addClass('hide');

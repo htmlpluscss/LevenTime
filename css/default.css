@@ -124,9 +124,6 @@ textarea.input {
 .input::-ms-clear {
 	display: none
 }
-@-ms-viewport {
-	width: 960px;
-}
 
 table {
 	border: 0;
@@ -148,6 +145,7 @@ table {
 	height: 22px;
 	position: absolute;
 	background: url(/images/sprite.png) -394px -99px;
+	background-size: 800px 600px;
 }
 .checkbox input:checked ~ .checkbox__pic {
 	background-position: -394px -129px;
@@ -163,6 +161,7 @@ table {
 	position: absolute;
 	font-style: normal;
 	background: url(/images/sprite.png);
+	background-size: 800px 600px;
 }
 .ico--inline {
 	position: relative;
@@ -174,6 +173,7 @@ table {
 .ico--arrow-left,
 .ico--arrow-right {
 	background: url(/images/sprite.png) -532px -130px;
+	background-size: 800px 600px;
 }
 .ico--arrow-up {
 	-webkit-transform: rotate(-90deg);
@@ -207,6 +207,7 @@ table {
 	white-space: nowrap;
 	border-radius: 24px;
 	background: #03a9f5;
+	transition: box-shadow .1s;
 }
 .btn--outline {
 	border: 2px solid;
@@ -217,10 +218,14 @@ table {
 	background: #fff;
 	border: 1px solid #bae8ff;
 }
+.btn:hover {
+	box-shadow: 0 5px 13px rgba(0,0,0,.2);
+}
 .btn--outline:hover {
-	color: #03a9f5;
+	color: #0287c4;
 	border-color: #fff;
 	background: #fff;
+	box-shadow: none;
 }
 
 
@@ -502,6 +507,7 @@ a.lang-toggle__text:hover {
 	content: '';
 	border-radius: 50%;
 	background: #03a9f5 url(/images/sprite.png);
+	background-size: 800px 600px;
 }
 .list-pic li:nth-child(1)::before {
 	background-position: -34px -14px;
