@@ -424,6 +424,7 @@
 	border-radius: 5px;
 	position: relative;
 	min-height: 208px;
+	box-shadow: 0 5px 13px rgba(0,0,0,.2);
 }
 
 .alert_up__close--ico {
@@ -537,4 +538,129 @@
 .jspDrag:hover,
 .jspDrag:active {
 	box-shadow: 0 0 2px rgba(0,0,0,.5);
+}
+
+
+.alert_up__item--login::before {
+	position: absolute;
+	width: 1px;
+	top: 88px;
+	left: 50%;
+	margin-left: -1px;
+	bottom: 54px;
+	content: '';
+	background: #e7e7e7;
+}
+.form-login {
+	width: 50%;
+	padding-left: 60px;
+	padding-right: 50px;
+	text-align: left;
+}
+.form-login + .form-login{
+	padding-left: 50px;
+}
+.alert_up h4 {
+	line-height: 36px;
+	margin-bottom: 29px;
+	text-align: left;
+}
+.input-box {
+	display: block;
+	width: 100%;
+	color: #474747;
+	margin: 15px 0;
+	position: relative;
+}
+.input-box .input {
+	margin: 4px 0;
+	width: 100%;
+}
+.input-box .ico--close-red {
+	left: auto;
+	right: -4px;
+	top: 24px;
+}
+.input-box .ico--check-green {
+	left: auto;
+	right: 10px;
+	top: 21px;
+}
+.input-box__error {
+	color: #f14b59;
+	font-size: 12px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	line-height: 28px;
+}
+.form-login__text {
+	margin: 28px 0 14px;
+	padding: 0;
+	font-size: 14px;
+	line-height: 19px;
+	text-align: left;
+}
+.form-login__text a {
+	color: #03a9f5;
+	text-decoration: underline;
+}
+.form-login__text a:hover {
+	text-decoration: none;
+}
+.form-login__btn {
+	margin: 48px 0;
+	text-transform: uppercase;
+	width: 140px;
+}
+.form-login + .form-login .form-login__btn {
+	margin: 38px 0 32px;
+}
+
+
+.input-box .tooltip {
+	position: absolute;
+	right: 10px;
+	top: 16px;
+}
+
+/* tooltip
+----------------------------------------*/
+.tooltip {
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
+	width: 22px;
+	height: 22px;
+	color: transparent;
+	background: url(/images/sprite.png) -480px -128px;
+	position: relative;
+}
+.tooltip span {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-top: 14px;
+	margin-left: -81px;
+	width: 162px;
+	color: #878787;
+	font-size: 12px;
+	line-height: 14px;
+	padding: 6px 9px 10px 10px;
+	background: #f3f3f3;
+	border-radius: 4px;
+	box-shadow: 0 5px 13px rgba(0,0,0,.2);
+}
+.tooltip span::before {
+	content: '';
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -8px;
+	border: 8px solid transparent;
+	border-bottom-color: #f3f3f3;
+}
+.tooltip:hover {
+	z-index: 9;
+	overflow: visible;
 }

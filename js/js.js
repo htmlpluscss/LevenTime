@@ -339,8 +339,23 @@ http://htmlpluscss.ru
 		$(this).closest('.alert_up__item').find('[type="email"]').focus();
 	});
 
+// form-login
+	$('.form-login .input').on('focus',function(){
+		$(this).siblings('.input-box__error').addClass('hide');
+	});
+
 // scroll-pane
 	$('.scroll-pane').jScrollPane();
+
+// tooltip
+	$('.tooltip').each(function(){
+		var t = $(this).addClass('notsel');
+		var box = $('<span>');
+		box.text(t.text());
+		t.html(box);
+	}).on('touchstart',function(){
+		return false;
+	});
 
 // cssAnimation('animation/transition')
 function cssAnimation(a){var b,c,d=document.createElement("cssanimation");switch(a){case'animation':b={"animation":"animationend","OAnimation":"oAnimationEnd","MozAnimation":"animationend","WebkitAnimation":"webkitAnimationEnd"};break;case'transition':b={"transition":"transitionend","OTransition":"oTransitionEnd","MozTransition":"transitionend","WebkitTransition":"webkitTransitionEnd"}}for(c in b)if(d.style[c]!==undefined)return b[c]};
