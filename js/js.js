@@ -37,10 +37,33 @@ http://htmlpluscss.ru
 			// h1
 			h1.each(function(){
 				var t = $(this),
-					tTop = t.offset().top;
+					lineWidth,
+					tTop = t.offset().top,
+					line = t.children('.h1__line'),
+					maxWidth = t.children('.h1__text').width();
+
 				if(windowScrollTop + windowHeight > tTop && windowScrollTop < tTop){
-//					20 - t.width()
+
+					lineWidth = (tTop - windowScrollTop) / windowHeight;
+
+					if(lineWidth > .5){
+
+						lineWidth = 1 - lineWidth;
+
+					}
+
+					lineWidth *= maxWidth * 2;
+
+					if(lineWidth < 20){
+						lineWidth = 20;
+					}
+					else if(lineWidth > maxWidth){
+						lineWidth = maxWidth;
+					}
+
+					line.width(lineWidth);
 				}
+
 			});
 
 			// parallax
@@ -72,7 +95,8 @@ http://htmlpluscss.ru
 
 	$window.trigger('scroll');
 
-
+// h1
+	h1.addClass('h1--line').wrapInner('<span class="h1__text">').append('<i class="h1__line"></i>');
 
 
 // slideShow
@@ -220,7 +244,7 @@ http://htmlpluscss.ru
 
 	};
 
-	$('.slide-show').slideShow();
+	$('.slide-show').not('.slide-show--off').slideShow();
 
 // touch X
 	function touchX(b,l,r){

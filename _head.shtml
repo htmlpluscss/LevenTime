@@ -44,7 +44,7 @@
 
 	</header>
 
-	<aside class="slider-home slide-show" data-timer="10">
+	<aside class="slider-home slide-show slide-show--off" data-timer="10">
 
 		<ul class="slide-show__box">
 
@@ -61,12 +61,6 @@
 					</p>
 
 				</div>
-
-			</li>
-			<li class="slide-show__item slider-home__item slider-home__item flexbox">
-
-			</li>
-			<li class="slide-show__item slider-home__item slider-home__item flexbox">
 
 			</li>
 
