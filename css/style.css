@@ -32,6 +32,49 @@
 }
 
 
+/* list-pic
+-----------------------------------------------------------------------------*/
+.list-pic {
+	margin-bottom: 40px;
+}
+.list-pic li {
+	width: 280px;
+	color: #565656;
+	font-size: 16px;
+	text-align: center;
+	margin: 10px 0 32px;
+	line-height: 18px;
+	font-weight: 300;
+}
+.list-pic li::before {
+	display: block;
+	margin: 14px auto;
+	width: 60px;
+	height: 60px;
+	content: '';
+	border-radius: 50%;
+	background: #03a9f5 url(/images/sprite.png);
+	background-size: 800px 600px;
+}
+.list-pic li:nth-child(1)::before {
+	background-position: -34px -14px;
+}
+.list-pic li:nth-child(2)::before {
+	background-position: -314px -14px;
+}
+.list-pic li:nth-child(3)::before {
+	background-position: -594px -14px;
+}
+.list-pic li:nth-child(4)::before {
+	background-position: -166px -14px;
+}
+.list-pic li:nth-child(5)::before {
+	background-position: -446px -14px;
+}
+.list-pic li:nth-child(6)::before {
+	background-position: -724px -14px;
+}
+
 /* img-text
 -----------------------------------------------------------------------------*/
 .img-text {
