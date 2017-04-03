@@ -1,5 +1,6 @@
 # Leventime
 [Главная](http://79198889134.ru/home.html)
+
 [Админка](http://79198889134.ru/lk.html)
 
 
@@ -9,12 +10,10 @@
 # Вызвать попап
 
 ```html
-
 <script>
 
 	showAlertUp('registr-ok')
 
 </script>
-
 ```
 
