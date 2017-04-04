@@ -296,7 +296,7 @@ http://htmlpluscss.ru
 		box.on('click',function(event){
 			var t = $(event.target);
 			if(t.is('.alert_up') || t.is('.alert_up__close')){
-				item.addClass('hide');
+				item.addClass('hide').find('.input').val('');
 				body.removeClass('hidden alert_up-show scroolbarwidth');
 			}
 		});

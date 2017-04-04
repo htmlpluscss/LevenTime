@@ -48,27 +48,3 @@
 		</div>
 
 	</header>
-
-	<aside class="slider-home slide-show slide-show--off" data-timer="10">
-
-		<ul class="slide-show__box">
-
-			<li class="slide-show__item slide-show__item--active">
-
-				<div class="center slider-home__item flexbox flexbox--column">
-
-					<img class="slider-home__img" src="img/slider-1.png" srcset="img/slider-1@2x.png 2x" alt="">
-
-					<p class="slider-home__text">
-						Участвуй в тестировании <br>и получи новый сверхбыстрый<br>безупречный смартфон
-						<strong class="slider-home__model">Xiaomi MI5</strong>
-						<a class="slider-home__btn btn btn--outline" data-alert-up="rules-not-btn">Подробнее</a>
-					</p>
-
-				</div>
-
-			</li>
-
-		</ul>
-
-	</aside>

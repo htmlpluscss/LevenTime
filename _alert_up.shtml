@@ -89,6 +89,36 @@
 
 		</form>
 
+		<form class="alert_up__item alert_up__item--recovery" novalidate>
+
+			<p>Укажите E-mail, для которого Вы хотите восстановить доступ</p>
+
+			<input type="email" class="input input--email">
+
+			<div class="alert_up__btns">
+
+				<a class="btn" data-alert-up="recovery-ok">Отправить</a>
+
+			</div>
+
+			<a class="alert_up__close alert_up__close--ico"></a>
+
+		</form>
+
+		<div class="alert_up__item alert_up__item--recovery-ok">
+
+			<p>Мы выслали всю необходимую информацию по восстановлению пароля на указанный вам E-mail</p>
+
+			<div class="alert_up__btns">
+
+				<a class="alert_up__close btn">Закрыть</a>
+
+			</div>
+
+			<a class="alert_up__close alert_up__close--ico"></a>
+
+		</div>
+
 		<div class="alert_up__item alert_up__item--rules">
 
 			<h3>Условия участия в тестировании</h3>
@@ -174,7 +204,7 @@
 					</label>
 
 					<div class="form-login__text">
-						<a>Забыли пароль?</a>
+						<a data-alert-up="recovery">Забыли пароль?</a>
 					</div>
 
 					<label class="checkbox">
