@@ -8,6 +8,7 @@ http://htmlpluscss.ru
 
 */
 
+var leventimeDOM = {};
 
 (function($){
 
@@ -340,7 +341,9 @@ http://htmlpluscss.ru
 	});
 
 // scroll-pane
-	$('.scroll-pane').jScrollPane();
+	if($('.scroll-pane').length>0){
+		$('.scroll-pane').jScrollPane();
+	}
 
 // tooltip
 	$('.tooltip').each(function(){

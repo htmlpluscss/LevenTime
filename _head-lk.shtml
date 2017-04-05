@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Leventime LK</title>
+	<meta charset="utf-8">
+	<link href="/css/default.css" rel="stylesheet">
+	<link href="/css/style.css" rel="stylesheet">
+	<link href="/css/lk.css" rel="stylesheet">
+	<link href="/favicon.png" rel="apple-touch-icon-precomposed">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=960">
+</head>
+
+<body>
+
+	<header class="header">
+
+		<div class="header__top">
+
+			<div class="center flexbox">
+
+				<a class="header__logo" href="/" title="Открой мир заново">
+					<img src="/images/logo.png" srcset="/images/logo@2x.png 2x" alt="Leventime">
+				</a>
+
+				<div class="lang-toggle flexbox__end">
+
+					<ul class="lang-toggle__box">
+
+						<li class="lang-toggle__item lang-toggle__item--active">
+							<span class="lang-toggle__text">Ru</span>
+						</li>
+						<li class="lang-toggle__item">
+							<a href="/" class="lang-toggle__text">En</a>
+						</li>
+
+					</ul>
+
+					<i class="ico ico--arrow-down"></i>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</header>
