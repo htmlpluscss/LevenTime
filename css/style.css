@@ -272,7 +272,9 @@
 	left: 16px;
 }
 .slide-show__prev:hover i,
-.slide-show__next:hover i {
+.slide-show__next:hover i,
+.slide-show--abscissa .slide-show__prev i,
+.slide-show--abscissa .slide-show__next i {
 	background-position: -532px -100px;
 }
 .slide-show__nav {
@@ -444,11 +446,37 @@
 	left: 0;
 	width: 999999px;
 }
-.slide-show--abscissa .slide-show__ul--jump {
-	-webkit-transition: left 0s;
-	transition: left 0s;
-}
 
+.slide-show--abscissa .slide-show__prev,
+.slide-show--abscissa .slide-show__next {
+	border: 2px solid #03a9f5;
+	height: 30px;
+	margin-left: 0;
+	margin-top: -15px;
+	width: 30px;
+	background-color: #fff;
+	left: -16px;
+}
+.slide-show--abscissa .slide-show__next {
+	left: 100%;
+	margin-left: -15px;
+}
+.slide-show--abscissa .slide-show__prev:hover,
+.slide-show--abscissa .slide-show__next:hover {
+	background-color: #03a9f5;
+}
+.slide-show--abscissa .slide-show__prev i {
+	top: 3px;
+	left: 2px;
+}
+.slide-show--abscissa .slide-show__next i {
+	top: 3px;
+	left: 4px;
+}
+.slide-show--abscissa .slide-show__prev:hover i,
+.slide-show--abscissa .slide-show__next:hover i {
+	background-position: -532px -130px;
+}
 
 /* alert
 -----------------------------------------------------------------------------*/

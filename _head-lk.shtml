@@ -23,20 +23,34 @@
 					<img src="/images/logo.png" srcset="/images/logo@2x.png 2x" alt="Leventime">
 				</a>
 
-				<div class="lang-toggle flexbox__end">
+				<div class="flexbox flexbox__end">
 
-					<ul class="lang-toggle__box">
+					<span class="header__user">
 
-						<li class="lang-toggle__item lang-toggle__item--active">
-							<span class="lang-toggle__text">Ru</span>
-						</li>
-						<li class="lang-toggle__item">
-							<a href="/" class="lang-toggle__text">En</a>
-						</li>
+						<span class="header__user-img"><img src="/img/user.png" alt=""></span>
+						<span class="header__user-company">KFC</span>
+						<span class="header__user-name">Fast Food Company</span>
 
-					</ul>
+					</span>
 
-					<i class="ico ico--arrow-down"></i>
+					<a class="header__exit"></a>
+
+					<div class="lang-toggle">
+
+						<ul class="lang-toggle__box">
+
+							<li class="lang-toggle__item lang-toggle__item--active">
+								<span class="lang-toggle__text">Ru</span>
+							</li>
+							<li class="lang-toggle__item">
+								<a href="/" class="lang-toggle__text">En</a>
+							</li>
+
+						</ul>
+
+						<i class="ico ico--arrow-down"></i>
+
+					</div>
 
 				</div>
 

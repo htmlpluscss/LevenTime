@@ -1,32 +1,12 @@
 	<footer class="footer">
 
-		<ul class="social-group flexbox flexbox--center">
-			<li>
-				<a class="social-group__link social-group__link--vk" href="/" target="_blank" rel="nofollow">группа в Контакте</a>
-			</li>
-			<li>
-				<a class="social-group__link social-group__link--fb" href="/" target="_blank" rel="nofollow">группа в Facebook</a>
-			</li>
-			<li>
-				<a class="social-group__link social-group__link--in" href="/" target="_blank" rel="nofollow">группа в Instagram</a>
-			</li>
-			<li>
-				<a class="social-group__link social-group__link--ok" href="/" target="_blank" rel="nofollow">группа в Одноклассниках</a>
-			</li>
-		</ul>
-
-		<p class="footer__support">Служба поддержки <br><a href="mailto:support@leventime.com">support@leventime.com</a></p>
-
-		<ul class="footer__menu">
-			<li><a data-alert-up="rules">Условия использования</a></li>
-			<li><a data-alert-up="login">Вход для организаций</a></li>
-		</ul>
-
 		<a class="footer__logo">Leventime</a>
 
 		<p class="footer__copyright">Copyright © 2017</p>
 
 	</footer>
+
+<!--#include file="_alert_up-lk.shtml"-->
 
 	<script defer src="/js/jquery.min.js"></script>
 	<script defer src="/js/js.js"></script>

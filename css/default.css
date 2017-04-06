@@ -193,6 +193,74 @@ table {
 .ico--check-green {
 	background-position: -438px -130px;
 }
+.ico--del,
+.ico--edit {
+	width: 24px;
+	height: 24px;
+	background: none;
+}
+.ico--del-white,
+.ico--check-white,
+.ico--del::before,
+.ico--edit::before {
+	width: 44px;
+	height: 44px;
+	position: absolute;
+	border-radius: 50%;
+	background: url(/images/sprite.png) -266px -202px;
+	background-size: 800px 600px;
+}
+.ico--del::before,
+.ico--edit::before {
+	top: -10px;
+	left: -10px;
+	content: '';
+}
+.ico--del::before {
+	background-position: -307px -202px;
+}
+.ico--edit:hover::before {
+	background-color: #bae8ff
+}
+.ico--del:hover::before {
+	background-position: -567px -202px;
+	background-color: #ffa9b0
+}
+.ico--add {
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background-color: #37c936;
+	background-position: -527px -201px;
+	box-shadow: 0 3px 6px rgba(0,0,0,.2);
+}
+.ico--tel {
+	width: 24px;
+	height: 24px;
+	background-position: -226px -212px;
+}
+.ico--del-white {
+	background-color: #131313;
+	background-position: -486px -202px;
+}
+.ico--del-white:hover {
+	background-color: #f14b59;
+}
+.ico--check-white {
+	background-color: #131313;
+	background-position: -429px -202px;
+}
+.ico--check-white:hover {
+	background-color: #03a9f5;
+}
+
+.ico--check-blue {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-position: -349px -125px;
+	background-color: #03a9f5;
+}
 
 /* btn
 -----------------------------------------------------------------------------*/
