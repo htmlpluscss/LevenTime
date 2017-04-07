@@ -494,9 +494,12 @@
 	height: 100%;
 	overflow: auto;
 }
-
+.alert_up__inner {
+	margin: auto;
+}
 .alert_up__item {
 	width: 620px;
+	margin: 20px auto;
 	max-width: 100%;
 	background: #fff;
 	padding: 20px;

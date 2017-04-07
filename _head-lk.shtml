@@ -25,13 +25,13 @@
 
 				<div class="flexbox flexbox__end">
 
-					<span class="header__user">
+					<a class="header__user" data-alert-up="profile">
 
 						<span class="header__user-img"><img src="/img/user.png" alt=""></span>
 						<span class="header__user-company">KFC</span>
 						<span class="header__user-name">Fast Food Company</span>
 
-					</span>
+					</a>
 
 					<a class="header__exit"></a>
 

@@ -9,6 +9,8 @@
 <!--#include file="_alert_up-lk.shtml"-->
 
 	<script defer src="/js/jquery.min.js"></script>
+	<script defer src="/js/jquery-ui.min.js"></script>
+	<script defer src="/js/jquery.maskedinput.min.js"></script>
 	<script defer src="/js/js.js"></script>
 	<script defer src="/js/lk.js"></script>
 

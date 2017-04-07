@@ -1,31 +1,586 @@
-	<div class="alert_up flexbox flexbox--center flexbox--align-center">
+	<div class="alert_up flexbox flexbox--column">
 
-		<div class="alert_up__item alert_up__item--registr-ok">
+		<div class="alert_up__inner">
 
-			<h4>Регистрация</h4>
+			<form class="alert_up__item alert_up__lk alert_up__item--description" novalidate>
 
-			<p>На указанный E-mail отправлено письмо с <br>инструкцией дальнейшей регистрации.</p>
+				<h4 class="alert_up__title">Общая информация</h4>
 
-			<a class="alert_up__close alert_up__close--ico"></a>
+				<h3 class="alert_up__label">Названия</h3>
 
-		</div>
+				<input class="alert_up__input input" value="Сеть быстрого питания">
 
-		<form class="alert_up__item alert_up__item--step-1" novalidate>
+				<h3 class="alert_up__label">Краткое описание*</h3>
 
-			<p>В таком случае возможно вы хотите чтобы мы вас уведомили <br>о релизе приложения? Укажите свой <a href="mailto:support@leventime.com">E-mail.</a></p>
+				<div class="alert_up__textarea-box">
 
-			<input type="email" class="input input--email">
+					<textarea class="alert_up__textarea alert_up__input input"></textarea>
 
-			<div class="alert_up__btns">
+					<a class="alert_up__textarea-arrow"></a>
 
-				<a class="btn alert_up__close">Подтвердить</a>
+				</div>
 
-				<a class="alert_up__close btn btn--white">Отказаться</a>
+				<h3 class="alert_up__label">Описание*</h3>
+
+				<div class="alert_up__textarea-box">
+
+					<textarea class="alert_up__textarea alert_up__input input"></textarea>
+
+					<a class="alert_up__textarea-arrow"></a>
+
+				</div>
+
+				<h3 class="alert_up__label">Средний чек*</h3>
+
+				<div class="alert_up__w72">
+
+					<input class="alert_up__input input">
+
+				</div>
+
+				<h3 class="alert_up__label">Социальные сети и веб-сайты</h3>
+
+				<ul class="social-links social-links--edit">
+					<li>
+						<a class="social-links__item social-links__item--site" href="http://www.kfc.ru" target="_blank">www</a>
+						<input class="alert_up__input input" value="www.kfc.ru">
+					</li>
+					<li>
+						<a class="social-links__item social-links__item--vk" href="http://vk.com/kfc" target="_blank">vk</a>
+						<input class="alert_up__input input" value="vk.com/kfc">
+					</li>
+					<li>
+						<a class="social-links__item social-links__item--fb" href="http://facebook.com/kfc" target="_blank">facebook</a>
+						<input class="alert_up__input input" value="facebook.com/kfc">
+					</li>
+					<li>
+						<a class="social-links__item social-links__item--in" href="http://instagram.com/kfc" target="_blank">instagram</a>
+						<input class="alert_up__input input" value="instagram.com/kfc">
+					</li>
+					<li>
+						<a class="social-links__item social-links__item--tw" href="http://twewter.com/kfc" target="_blank">twitter</a>
+						<input class="alert_up__input input" value="twitter.com/kfc">
+					</li>
+					<li>
+						<a class="social-links__item social-links__item--fl" href="http://flamp.com/kfc" target="_blank">flamp</a>
+						<input class="alert_up__input input" value="flamp.com/kfc">
+					</li>
+				</ul>
+
+				<h3 class="alert_up__label">Логотип</h3>
+
+				<div class="file-logo">
+					<span class="file-logo__text">Соотношение сторон должно быть 4:3</span>
+					<label class="file-logo__btn">
+						Выбрать
+						<input class="file-logo__input" type="file">
+					</label>
+					<div class="file-logo__img">
+						<img src="img/file-logo__img.png" alt="">
+						<span class="file-logo__mask"><i></i></span>
+						<input type="hidden" name="file-logo-left">
+					</div>
+				</div>
+
+				<h3 class="alert_up__label">Тип места*</h3>
+
+				<div class="alert_up__colum-2 flexbox flexbox--wrap">
+
+					<div class="alert_up__colum-2__item">
+						<label class="checkbox">
+							кино
+							<input type="checkbox" checked="checked" class="hidden-visible">
+							<i class="checkbox__pic"></i>
+						</label>
+					</div>
+
+					<div class="alert_up__colum-2__item">
+						<label class="checkbox">
+							прогулки
+							<input type="checkbox" class="hidden-visible">
+							<i class="checkbox__pic"></i>
+						</label>
+					</div>
+
+					<div class="alert_up__colum-2__item">
+						<label class="checkbox">
+							бары и клубы
+							<input type="checkbox" class="hidden-visible">
+							<i class="checkbox__pic"></i>
+						</label>
+					</div>
+
+					<div class="alert_up__colum-2__item">
+						<label class="checkbox">
+							поездки
+							<input type="checkbox" class="hidden-visible">
+							<i class="checkbox__pic"></i>
+						</label>
+					</div>
+
+					<div class="alert_up__colum-2__item">
+						<label class="checkbox">
+							театры
+							<input type="checkbox" class="hidden-visible">
+							<i class="checkbox__pic"></i>
+						</label>
+					</div>
+
+					<div class="alert_up__colum-2__item">
+						<label class="checkbox">
+							спортивный отдых
+							<input type="checkbox" class="hidden-visible">
+							<i class="checkbox__pic"></i>
+						</label>
+					</div>
+
+					<div class="alert_up__colum-2__item">
+						<label class="checkbox">
+							концерты
+							<input type="checkbox" class="hidden-visible">
+							<i class="checkbox__pic"></i>
+						</label>
+					</div>
+
+					<div class="alert_up__colum-2__item">
+						<label class="checkbox">
+							отдых за границей
+							<input type="checkbox" class="hidden-visible">
+							<i class="checkbox__pic"></i>
+						</label>
+					</div>
+
+					<div class="alert_up__colum-2__item">
+						<label class="checkbox">
+							выставки
+							<input type="checkbox" class="hidden-visible">
+							<i class="checkbox__pic"></i>
+						</label>
+					</div>
+
+					<div class="alert_up__colum-2__item">
+						<label class="checkbox">
+							экскурсии
+							<input type="checkbox" class="hidden-visible">
+							<i class="checkbox__pic"></i>
+						</label>
+					</div>
+
+					<div class="alert_up__colum-2__item">
+						<label class="checkbox">
+							рестораны, кафе
+							<input type="checkbox" class="hidden-visible">
+							<i class="checkbox__pic"></i>
+						</label>
+					</div>
+
+					<div class="alert_up__colum-2__item">
+						<label class="checkbox">
+							совместный отдых
+							<input type="checkbox" class="hidden-visible">
+							<i class="checkbox__pic"></i>
+						</label>
+					</div>
+
+				</div>
+
+				<h3 class="alert_up__label">Опции*</h3>
+
+				<div class="alert_up__colum-2 flexbox flexbox--wrap">
+
+					<div class="alert_up__colum-2__item">
+						<label class="checkbox">
+							бесплатный WiFi
+							<input type="checkbox" class="hidden-visible">
+							<i class="checkbox__pic"></i>
+						</label>
+					</div>
+
+					<div class="alert_up__colum-2__item">
+						<label class="checkbox">
+							круглосуточно
+							<input type="checkbox" class="hidden-visible">
+							<i class="checkbox__pic"></i>
+						</label>
+					</div>
+
+					<div class="alert_up__colum-2__item">
+						<label class="checkbox">
+							парковка
+							<input type="checkbox" class="hidden-visible">
+							<i class="checkbox__pic"></i>
+						</label>
+					</div>
+
+					<div class="alert_up__colum-2__item">
+						<label class="checkbox">
+							алкоголь
+							<input type="checkbox" class="hidden-visible">
+							<i class="checkbox__pic"></i>
+						</label>
+					</div>
+
+					<div class="alert_up__colum-2__item">
+						<label class="checkbox">
+							безналичный расчет
+							<input type="checkbox" class="hidden-visible">
+							<i class="checkbox__pic"></i>
+						</label>
+					</div>
+
+					<div class="alert_up__colum-2__item">
+						<label class="checkbox">
+							крепкий алкоголь
+							<input type="checkbox" class="hidden-visible">
+							<i class="checkbox__pic"></i>
+						</label>
+					</div>
+
+				</div>
+
+				<div class="alert_up__btns">
+
+					<a class="btn">Сохранить</a>
+
+					<a class="alert_up__close btn btn--white">Закрыть</a>
+
+				</div>
+
+				<a class="alert_up__close alert_up__close--ico"></a>
+
+			</form>
+
+			<form class="alert_up__item alert_up__lk alert_up__item--address" novalidate>
+
+				<h4 class="alert_up__title">Добавление адреса</h4>
+
+				<div class="alert_up__w182">
+
+					<h3 class="alert_up__label">Город</h3>
+
+					<input class="alert_up__input input" value="Красноярск">
+
+				</div>
+
+				<h3 class="alert_up__label">Адрес</h3>
+
+				<input class="alert_up__input input">
+
+				<div class="flexbox">
+
+					<div class="alert_up__w72">
+
+						<h3 class="alert_up__label">Долгота</h3>
+
+						<input class="alert_up__input input">
+
+					</div>
+
+					<div class="alert_up__w72">
+
+						<h3 class="alert_up__label">Широта</h3>
+
+						<input class="alert_up__input input">
+
+					</div>
+
+					<div class="alert_up__w72">
+
+						<a class="alert_up__w72-tooltip tooltip">Пароль дожен содержать не менее 6 символов</a>
+
+					</div>
+
+				</div>
+
+				<h3 class="alert_up__label">Размер скидки</h3>
+
+				<div class="alert_up__w72 alert_up__w72--after-procent">
+
+					<input class="alert_up__input input">
+
+				</div>
+
+				<div class="alert_up__checkbox-box">
+
+					<label class="checkbox">
+						Я согласен с <a class="alert_up__link" href="" target="_blank">условиями предоставления скидки</a>
+						<input type="checkbox" checked="checked" class="hidden-visible">
+						<i class="checkbox__pic"></i>
+					</label>
+
+				</div>
+
+				<div class="alert_up__btns">
+
+					<a class="btn">Сохранить</a>
+
+					<a class="alert_up__close btn btn--white">Закрыть</a>
+
+				</div>
+
+				<a class="alert_up__close alert_up__close--ico"></a>
+
+			</form>
+
+			<form class="alert_up__item alert_up__lk alert_up__item--moderator" novalidate>
+
+				<h4 class="alert_up__title">Отправка на модерацию</h4>
+
+				<p>Для того чтобы мы были уверены, что название организации ваше, необходимо приложить сканы документов, подтверждающие его.</p>
+
+				<div class="file-scan">
+					<label class="file-scan__btn">
+						Обзор
+						<input class="file-scan__input" type="file">
+					</label>
+					<div class="flexbox flexbox--wrap">
+						<div class="file-scan__img">
+							<img src="img/file-scan-1.png" alt="">
+							<span class="file-logo__name">Скан_док_1.jpeg</span>
+						</div>
+						<div class="file-scan__img">
+							<img src="img/file-scan-2.png" alt="">
+							<span class="file-logo__name">Скан_док_2.jpeg</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="alert_up__btns">
+
+					<a class="btn">отправить</a>
+
+					<a class="alert_up__close btn btn--white">Закрыть</a>
+
+				</div>
+
+				<a class="alert_up__close alert_up__close--ico"></a>
+
+			</form>
+
+			<div class="alert_up__item alert_up__lk alert_up__item--profile">
+
+				<h4 class="alert_up__title">Профиль заполнен частично</h4>
+
+				<p>К сожалению вы заполнили не всю необходимую информацию</p>
+
+				<p class="alert_up__lk-red">
+					- не полностью заполнена общая информация <br>
+					- отсутствует адрес <br>
+					- не указаны контакты <br>
+					- не указано расписание <br>
+					- отсутствуют фотографии
+				</p>
+
+				<div class="alert_up__btns">
+
+					<a class="alert_up__close btn btn--white">Закрыть</a>
+
+				</div>
+
+				<a class="alert_up__close alert_up__close--ico"></a>
 
 			</div>
 
-			<a class="alert_up__close alert_up__close--ico"></a>
+			<form class="alert_up__item alert_up__lk alert_up__item--time" novalidate>
 
-		</form>
+				<h4 class="alert_up__title">Режим работы</h4>
+
+				<div class="flexbox flexbox--align-center time-box">
+
+					<div class="time-box__label">Пн</div>
+
+					<div class="time-box__input">
+
+						<input class="alert_up__input input mask-time" value="09:00">
+
+					</div>
+
+					<div class="time-box__sep"> - </div>
+
+					<div class="time-box__input">
+
+						<input class="alert_up__input input mask-time" value="19:00">
+
+					</div>
+
+				</div>
+
+				<div class="flexbox flexbox--align-center time-box">
+
+					<div class="time-box__label">Вт</div>
+
+					<div class="time-box__input">
+
+						<input class="alert_up__input input mask-time">
+
+					</div>
+
+					<div class="time-box__sep"> - </div>
+
+					<div class="time-box__input">
+
+						<input class="alert_up__input input mask-time">
+
+					</div>
+
+				</div>
+
+				<div class="flexbox flexbox--align-center time-box">
+
+					<div class="time-box__label">Ср</div>
+
+					<div class="time-box__input">
+
+						<input class="alert_up__input input mask-time">
+
+					</div>
+
+					<div class="time-box__sep"> - </div>
+
+					<div class="time-box__input">
+
+						<input class="alert_up__input input mask-time">
+
+					</div>
+
+				</div>
+
+				<div class="flexbox flexbox--align-center time-box">
+
+					<div class="time-box__label">Чт</div>
+
+					<div class="time-box__input">
+
+						<input class="alert_up__input input mask-time">
+
+					</div>
+
+					<div class="time-box__sep"> - </div>
+
+					<div class="time-box__input">
+
+						<input class="alert_up__input input mask-time">
+
+					</div>
+
+				</div>
+
+				<div class="flexbox flexbox--align-center time-box">
+
+					<div class="time-box__label">Пт</div>
+
+					<div class="time-box__input">
+
+						<input class="alert_up__input input mask-time">
+
+					</div>
+
+					<div class="time-box__sep"> - </div>
+
+					<div class="time-box__input">
+
+						<input class="alert_up__input input mask-time">
+
+					</div>
+
+				</div>
+
+				<div class="flexbox flexbox--align-center time-box">
+
+					<div class="time-box__label">Сб</div>
+
+					<div class="time-box__input">
+
+						<input class="alert_up__input input mask-time">
+
+					</div>
+
+					<div class="time-box__sep"> - </div>
+
+					<div class="time-box__input">
+
+						<input class="alert_up__input input mask-time">
+
+					</div>
+
+				</div>
+
+				<div class="flexbox flexbox--align-center time-box">
+
+					<div class="time-box__label">Вс</div>
+
+					<div class="time-box__input">
+
+						<input class="alert_up__input input mask-time">
+
+					</div>
+
+					<div class="time-box__sep"> - </div>
+
+					<div class="time-box__input">
+
+						<input class="alert_up__input input mask-time">
+
+					</div>
+
+				</div>
+
+				<p>Примечание: <span>Если день является выходным, в то время для этого дня необходимо оставить незаполненым.</span></p>
+
+				<div class="alert_up__btns">
+
+					<a class="btn">Сохранить</a>
+
+					<a class="alert_up__close btn btn--white">Закрыть</a>
+
+				</div>
+
+				<a class="alert_up__close alert_up__close--ico"></a>
+
+			</form>
+
+			<form class="alert_up__item alert_up__lk alert_up__item--contacts" novalidate>
+
+				<h4 class="alert_up__title">Контакты</h4>
+
+				<h3 class="alert_up__label">Телефон</h3>
+
+				<div class="alert_up__before-plus">
+
+					<div class="alert_up__w182">
+
+						<input class="alert_up__input input mask-tel">
+
+					</div>
+
+				</div>
+
+				<h3 class="alert_up__label">Описание</h3>
+
+				<input class="alert_up__input input">
+
+				<div class="alert_up__checkbox-box">
+
+					<label class="checkbox">
+						По умолчанию
+						<input type="checkbox" checked="checked" class="hidden-visible">
+						<i class="checkbox__pic"></i>
+					</label>
+
+				</div>
+
+				<div class="alert_up__btns">
+
+					<a class="btn">Сохранить</a>
+
+					<a class="alert_up__close btn btn--white">Закрыть</a>
+
+				</div>
+
+				<a class="alert_up__close alert_up__close--ico"></a>
+
+			</form>
+
+		</div>
 
 	</div>

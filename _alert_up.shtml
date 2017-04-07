@@ -1,256 +1,260 @@
-	<div class="alert_up flexbox flexbox--center flexbox--align-center">
+	<div class="alert_up flexbox flexbox--column">
 
-		<div class="alert_up__item alert_up__item--registr-ok">
+		<div class="alert_up__inner">
 
-			<h4>Регистрация</h4>
+			<div class="alert_up__item alert_up__item--registr-ok">
 
-			<p>На указанный E-mail отправлено письмо с <br>инструкцией дальнейшей регистрации.</p>
+				<h4>Регистрация</h4>
 
-			<a class="alert_up__close alert_up__close--ico"></a>
+				<p>На указанный E-mail отправлено письмо с <br>инструкцией дальнейшей регистрации.</p>
 
-		</div>
-
-		<div class="alert_up__item alert_up__item--info">
-
-			<p>Мы выслали всю необходимую информацию по<br> тестированию на указанный вами E-mail.</p>
-
-			<div class="alert_up__btns">
-
-				<a class="alert_up__close btn">Закрыть</a>
+				<a class="alert_up__close alert_up__close--ico"></a>
 
 			</div>
 
-			<a class="alert_up__close alert_up__close--ico"></a>
+			<div class="alert_up__item alert_up__item--info">
 
-		</div>
+				<p>Мы выслали всю необходимую информацию по<br> тестированию на указанный вами E-mail.</p>
 
-		<div class="alert_up__item alert_up__item--android">
+				<div class="alert_up__btns">
 
-			<p>Версия на Android находится на стадии тестирования. <br>Хотите принять участие в тестировании?</p>
+					<a class="alert_up__close btn">Закрыть</a>
 
-			<div class="alert_up__btns">
+				</div>
 
-				<a class="btn" data-alert-up="rules">Да</a>
-				<a class="btn btn--white" data-alert-up="step-1">Нет</a>
-
-			</div>
-
-			<a class="alert_up__close alert_up__close--ico"></a>
-
-		</div>
-
-		<form class="alert_up__item alert_up__item--step-1" novalidate>
-
-			<p>В таком случае возможно вы хотите чтобы мы вас уведомили <br>о релизе приложения? Укажите свой <a href="mailto:support@leventime.com">E-mail.</a></p>
-
-			<input type="email" class="input input--email">
-
-			<div class="alert_up__btns">
-
-				<a class="btn alert_up__close">Подтвердить</a>
-
-				<a class="alert_up__close btn btn--white">Отказаться</a>
+				<a class="alert_up__close alert_up__close--ico"></a>
 
 			</div>
 
-			<a class="alert_up__close alert_up__close--ico"></a>
+			<div class="alert_up__item alert_up__item--android">
 
-		</form>
+				<p>Версия на Android находится на стадии тестирования. <br>Хотите принять участие в тестировании?</p>
 
-		<form class="alert_up__item alert_up__item--ios" novalidate>
+				<div class="alert_up__btns">
 
-			<p>Выпуск IOS Версии ожидается в ближайшее время. <br>Оставьте свой <a href="mailto:support@leventime.com">e-mail</a>, для того чтобы мы оповестили о релизе приложения</p>
+					<a class="btn" data-alert-up="rules">Да</a>
+					<a class="btn btn--white" data-alert-up="step-1">Нет</a>
 
-			<input type="email" class="input input--email">
+				</div>
 
-			<div class="alert_up__btns">
-
-				<a class="btn alert_up__close">Отправить</a>
-
-			</div>
-
-			<a class="alert_up__close alert_up__close--ico"></a>
-
-		</form>
-
-		<form class="alert_up__item alert_up__item--tester" novalidate>
-
-			<p>Для того чтобы мы включили вас в тестировщики, укажите свой <a href="mailto:support@leventime.com">E-mail</a></p>
-
-			<input type="email" class="input input--email">
-
-			<div class="alert_up__btns">
-
-				<a class="btn" data-alert-up="info">Подтвердить</a>
+				<a class="alert_up__close alert_up__close--ico"></a>
 
 			</div>
 
-			<a class="alert_up__close alert_up__close--ico"></a>
+			<form class="alert_up__item alert_up__item--step-1" novalidate>
 
-		</form>
+				<p>В таком случае возможно вы хотите чтобы мы вас уведомили <br>о релизе приложения? Укажите свой <a href="mailto:support@leventime.com">E-mail.</a></p>
 
-		<form class="alert_up__item alert_up__item--recovery" novalidate>
+				<input type="email" class="input input--clear input--email">
 
-			<p>Укажите E-mail, для которого Вы хотите восстановить доступ</p>
+				<div class="alert_up__btns">
 
-			<input type="email" class="input input--email">
+					<a class="btn alert_up__close">Подтвердить</a>
 
-			<div class="alert_up__btns">
+					<a class="alert_up__close btn btn--white">Отказаться</a>
 
-				<a class="btn" data-alert-up="recovery-ok">Отправить</a>
+				</div>
 
-			</div>
+				<a class="alert_up__close alert_up__close--ico"></a>
 
-			<a class="alert_up__close alert_up__close--ico"></a>
+			</form>
 
-		</form>
+			<form class="alert_up__item alert_up__item--ios" novalidate>
 
-		<div class="alert_up__item alert_up__item--recovery-ok">
+				<p>Выпуск IOS Версии ожидается в ближайшее время. <br>Оставьте свой <a href="mailto:support@leventime.com">e-mail</a>, для того чтобы мы оповестили о релизе приложения</p>
 
-			<p>Мы выслали всю необходимую информацию по восстановлению пароля на указанный вам E-mail</p>
+				<input type="email" class="input input--clear input--email">
 
-			<div class="alert_up__btns">
+				<div class="alert_up__btns">
 
-				<a class="alert_up__close btn">Закрыть</a>
+					<a class="btn alert_up__close">Отправить</a>
 
-			</div>
+				</div>
 
-			<a class="alert_up__close alert_up__close--ico"></a>
+				<a class="alert_up__close alert_up__close--ico"></a>
 
-		</div>
+			</form>
 
-		<div class="alert_up__item alert_up__item--rules">
+			<form class="alert_up__item alert_up__item--tester" novalidate>
 
-			<h3>Условия участия в тестировании</h3>
+				<p>Для того чтобы мы включили вас в тестировщики, укажите свой <a href="mailto:support@leventime.com">E-mail</a></p>
 
-			<div class="scroll-pane">
+				<input type="email" class="input input--clear input--email">
 
-				<p>1) Для того чтобы начать участвовать в тестировании в рамках проведения конкурса необходимо на сайте www.leventime.com нажать на кнопку Google PlayMarket в разделе скачать и зарегистрироваться как тестировщик, получив при этом ссылку на приложение, на указанный Вами E-mail.</p>
+				<div class="alert_up__btns">
 
-				<p>2) Все предложения по функционалу и найденные баги в приложении отправлять на почту support@leventime.com. В письме убедительная просьба, для того чтобы нам было легче ориентироваться, указывать следующую информацию:</p>
+					<a class="btn" data-alert-up="info">Подтвердить</a>
 
-				<p>- подробное описание действий, которые привели к данной ошибке;</p>
+				</div>
 
-				<p>- носит ли ошибка систематический характер;</p>
+				<a class="alert_up__close alert_up__close--ico"></a>
 
-				<p>- полное название девайса, версия андроида;</p>
+			</form>
 
-				<p>- ориентировочное время, когда произошла ошибка;</p>
+			<form class="alert_up__item alert_up__item--recovery" novalidate>
 
-				<p>3) Главный приз Xiaomi Mi5 64Gb будет разыгран между самыми активными пользователями при подведении итогов тестирования.</p>
+				<p>Укажите E-mail, для которого Вы хотите восстановить доступ</p>
 
-				<p>4) Период тестирования определяется количеством найденных багов в приложении и временем их устранения.</p>
+				<input type="email" class="input input--clear input--email">
 
-			</div>
+				<div class="alert_up__btns">
 
-			<div class="alert_up__btns">
+					<a class="btn" data-alert-up="recovery-ok">Отправить</a>
 
-				<a class="btn" data-alert-up="tester">Далее</a>
+				</div>
 
-			</div>
+				<a class="alert_up__close alert_up__close--ico"></a>
 
-			<a class="alert_up__close alert_up__close--ico"></a>
+			</form>
 
-		</div>
+			<div class="alert_up__item alert_up__item--recovery-ok">
 
-		<div class="alert_up__item alert_up__item--rules-not-btn">
+				<p>Мы выслали всю необходимую информацию по восстановлению пароля на указанный вам E-mail</p>
 
-			<h3>Условия участия в тестировании</h3>
+				<div class="alert_up__btns">
 
-			<div class="scroll-pane">
+					<a class="alert_up__close btn">Закрыть</a>
 
-				<p>1) Для того чтобы начать участвовать в тестировании в рамках проведения конкурса необходимо на сайте www.leventime.com нажать на кнопку Google PlayMarket в разделе скачать и зарегистрироваться как тестировщик, получив при этом ссылку на приложение, на указанный Вами E-mail.</p>
+				</div>
 
-				<p>2) Все предложения по функционалу и найденные баги в приложении отправлять на почту support@leventime.com. В письме убедительная просьба, для того чтобы нам было легче ориентироваться, указывать следующую информацию:</p>
-
-				<p>- подробное описание действий, которые привели к данной ошибке;</p>
-
-				<p>- носит ли ошибка систематический характер;</p>
-
-				<p>- полное название девайса, версия андроида;</p>
-
-				<p>- ориентировочное время, когда произошла ошибка;</p>
-
-				<p>3) Главный приз Xiaomi Mi5 64Gb будет разыгран между самыми активными пользователями при подведении итогов тестирования.</p>
-
-				<p>4) Период тестирования определяется количеством найденных багов в приложении и временем их устранения.</p>
+				<a class="alert_up__close alert_up__close--ico"></a>
 
 			</div>
 
-			<a class="alert_up__close alert_up__close--ico"></a>
+			<div class="alert_up__item alert_up__item--rules">
 
-		</div>
+				<h3>Условия участия в тестировании</h3>
 
-		<div class="alert_up__item alert_up__item--login">
+				<div class="scroll-pane">
 
-			<div class="flexbox">
+					<p>1) Для того чтобы начать участвовать в тестировании в рамках проведения конкурса необходимо на сайте www.leventime.com нажать на кнопку Google PlayMarket в разделе скачать и зарегистрироваться как тестировщик, получив при этом ссылку на приложение, на указанный Вами E-mail.</p>
 
-				<form class="form-login" novalidate>
+					<p>2) Все предложения по функционалу и найденные баги в приложении отправлять на почту support@leventime.com. В письме убедительная просьба, для того чтобы нам было легче ориентироваться, указывать следующую информацию:</p>
 
-					<h4>Авторизация</h4>
+					<p>- подробное описание действий, которые привели к данной ошибке;</p>
 
-					<label class="input-box">
-						E-mail
-						<input type="email" class="input input--error">
-						<span class="input-box__error">Неправильный е-мейл</span>
-						<i class="ico ico--close-red"></i>
-					</label>
+					<p>- носит ли ошибка систематический характер;</p>
 
-					<label class="input-box">
-						Пароль
-						<input type="password" class="input input--error">
-						<span class="input-box__error">Неправильный пароль</span>
-						<i class="ico ico--close-red"></i>
-					</label>
+					<p>- полное название девайса, версия андроида;</p>
 
-					<div class="form-login__text">
-						<a data-alert-up="recovery">Забыли пароль?</a>
-					</div>
+					<p>- ориентировочное время, когда произошла ошибка;</p>
 
-					<label class="checkbox">
-						Запомнить меня
-						<input type="checkbox" class="hidden-visible">
-						<i class="checkbox__pic"></i>
-					</label>
+					<p>3) Главный приз Xiaomi Mi5 64Gb будет разыгран между самыми активными пользователями при подведении итогов тестирования.</p>
 
-					<a class="btn form-login__btn">Войти</a>
+					<p>4) Период тестирования определяется количеством найденных багов в приложении и временем их устранения.</p>
 
-				</form>
+				</div>
 
-				<form class="form-login" novalidate>
+				<div class="alert_up__btns">
 
-					<h4>Регистрация</h4>
+					<a class="btn" data-alert-up="tester">Далее</a>
 
-					<label class="input-box">
-						Название организации
-						<input class="input">
-					</label>
+				</div>
 
-					<label class="input-box">
-						E-mail
-						<input type="email" class="input input--valid" value="name@mail.com">
-						<i class="ico ico--check-green"></i>
-					</label>
-
-					<label class="input-box">
-						Пароль
-						<input type="password" class="input" value="1234">
-						<a class="tooltip">Пароль дожен содержать не менее 6 символов</a>
-					</label>
-
-					<label class="input-box">
-						Подтверждение пароля
-						<input type="password" class="input input--valid" value="1234">
-						<i class="ico ico--check-green"></i>
-					</label>
-
-					<a class="btn btn--white form-login__btn">Регистрация</a>
-
-				</form>
+				<a class="alert_up__close alert_up__close--ico"></a>
 
 			</div>
 
-			<a class="alert_up__close alert_up__close--ico"></a>
+			<div class="alert_up__item alert_up__item--rules-not-btn">
+
+				<h3>Условия участия в тестировании</h3>
+
+				<div class="scroll-pane">
+
+					<p>1) Для того чтобы начать участвовать в тестировании в рамках проведения конкурса необходимо на сайте www.leventime.com нажать на кнопку Google PlayMarket в разделе скачать и зарегистрироваться как тестировщик, получив при этом ссылку на приложение, на указанный Вами E-mail.</p>
+
+					<p>2) Все предложения по функционалу и найденные баги в приложении отправлять на почту support@leventime.com. В письме убедительная просьба, для того чтобы нам было легче ориентироваться, указывать следующую информацию:</p>
+
+					<p>- подробное описание действий, которые привели к данной ошибке;</p>
+
+					<p>- носит ли ошибка систематический характер;</p>
+
+					<p>- полное название девайса, версия андроида;</p>
+
+					<p>- ориентировочное время, когда произошла ошибка;</p>
+
+					<p>3) Главный приз Xiaomi Mi5 64Gb будет разыгран между самыми активными пользователями при подведении итогов тестирования.</p>
+
+					<p>4) Период тестирования определяется количеством найденных багов в приложении и временем их устранения.</p>
+
+				</div>
+
+				<a class="alert_up__close alert_up__close--ico"></a>
+
+			</div>
+
+			<div class="alert_up__item alert_up__item--login">
+
+				<div class="flexbox">
+
+					<form class="form-login" novalidate>
+
+						<h4>Авторизация</h4>
+
+						<label class="input-box">
+							E-mail
+							<input type="email" class="input input--clear input--error">
+							<span class="input-box__error">Неправильный е-мейл</span>
+							<i class="ico ico--close-red"></i>
+						</label>
+
+						<label class="input-box">
+							Пароль
+							<input type="password" class="input input--clear input--error">
+							<span class="input-box__error">Неправильный пароль</span>
+							<i class="ico ico--close-red"></i>
+						</label>
+
+						<div class="form-login__text">
+							<a data-alert-up="recovery">Забыли пароль?</a>
+						</div>
+
+						<label class="checkbox">
+							Запомнить меня
+							<input type="checkbox" class="hidden-visible">
+							<i class="checkbox__pic"></i>
+						</label>
+
+						<a class="btn form-login__btn">Войти</a>
+
+					</form>
+
+					<form class="form-login" novalidate>
+
+						<h4>Регистрация</h4>
+
+						<label class="input-box">
+							Название организации
+							<input class="input input--clear">
+						</label>
+
+						<label class="input-box">
+							E-mail
+							<input type="email" class="input input--clear input--valid" value="name@mail.com">
+							<i class="ico ico--check-green"></i>
+						</label>
+
+						<label class="input-box">
+							Пароль
+							<input type="password" class="input input--clear" value="1234">
+							<a class="tooltip">Пароль дожен содержать не менее 6 символов</a>
+						</label>
+
+						<label class="input-box">
+							Подтверждение пароля
+							<input type="password" class="input input--clear input--valid" value="1234">
+							<i class="ico ico--check-green"></i>
+						</label>
+
+						<a class="btn btn--white form-login__btn">Регистрация</a>
+
+					</form>
+
+				</div>
+
+				<a class="alert_up__close alert_up__close--ico"></a>
+
+			</div>
 
 		</div>
 

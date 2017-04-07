@@ -132,7 +132,7 @@ table {
 
 .checkbox {
 	line-height: 20px;
-	padding-left: 25px;
+	padding-left: 32px;
 	display: inline-block;
 	vertical-align: middle;
 	position: relative;
@@ -144,11 +144,16 @@ table {
 	width: 22px;
 	height: 22px;
 	position: absolute;
+	background-color: #f7f7f7;
+	border-radius: 4px;
+}
+.checkbox:hover .checkbox__pic {
 	background: url(/images/sprite.png) -394px -99px;
 	background-size: 800px 600px;
 }
 .checkbox input:checked ~ .checkbox__pic {
-	background-position: -394px -129px;
+	background: url(/images/sprite.png) -394px -129px;
+	background-size: 800px 600px;
 }
 
 /* ico
@@ -288,6 +293,10 @@ table {
 }
 .btn:hover {
 	box-shadow: 0 5px 13px rgba(0,0,0,.2);
+}
+.btn--white:hover {
+	background: #bae8ff;
+	box-shadow: none;
 }
 .btn--outline:hover {
 	color: #0287c4;
