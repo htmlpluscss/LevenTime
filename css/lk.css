@@ -230,6 +230,7 @@ body {
 ----------------------------------------*/
 .slider-lk {
 	padding: 20px;
+	padding-left: 260px;
 	margin: 16px -10px 20px;
 }
 .slide-show__item {
@@ -247,7 +248,10 @@ body {
 	display: none;
 }
 .slider-lk__item--add {
-
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 220px;
 }
 .add-file {
 	position: absolute;

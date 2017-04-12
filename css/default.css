@@ -206,8 +206,8 @@ table {
 }
 .ico--del-white,
 .ico--check-white,
-.ico--del::before,
-.ico--edit::before {
+.ico--del::after,
+.ico--edit::after {
 	width: 44px;
 	height: 44px;
 	position: absolute;
@@ -215,21 +215,37 @@ table {
 	background: url(/images/sprite.png) -266px -202px;
 	background-size: 800px 600px;
 }
-.ico--del::before,
-.ico--edit::before {
+.ico--del::after {
+	background-position: -307px -202px;
+}
+.ico--del::after,
+.ico--edit::after {
 	top: -10px;
 	left: -10px;
 	content: '';
 }
-.ico--del::before {
-	background-position: -307px -202px;
-}
-.ico--edit:hover::before {
-	background-color: #bae8ff
+.ico--del::before,
+.ico--edit::before {
+	width: 44px;
+	height: 44px;
+	position: absolute;
+	border-radius: 50%;
+	top: -10px;
+	left: -10px;
+	content: '';
+	transition: transform .2s;
+	transform: scale(0);
 }
 .ico--del:hover::before {
-	background-position: -567px -202px;
+	transform: scale(1);
 	background-color: #ffa9b0
+}
+.ico--edit:hover::before {
+	transform: scale(1);
+	background-color: #bae8ff
+}
+.ico--del:hover::after {
+	background-position: -567px -202px;
 }
 .ico--add {
 	width: 44px;
@@ -237,6 +253,8 @@ table {
 	border-radius: 50%;
 	background-color: #37c936;
 	background-position: -527px -201px;
+}
+.ico--add:hover {
 	box-shadow: 0 3px 6px rgba(0,0,0,.2);
 }
 .ico--tel {
@@ -295,8 +313,6 @@ table {
 	box-shadow: 0 5px 13px rgba(0,0,0,.2);
 }
 .btn--white:hover {
-	background: #bae8ff;
-	box-shadow: none;
 }
 .btn--outline:hover {
 	color: #0287c4;

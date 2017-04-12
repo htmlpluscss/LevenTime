@@ -129,7 +129,7 @@ var leventimeDOM = {};
 
 				list = slider.find('.slide-show__item');
 				size = list.length;
-				slider.toggleClass('slide-show--hide-btn', size < 5);
+				slider.toggleClass('slide-show--hide-btn', size < 4);
 
 				list.find('.slider-lk__img').each(function(){
 					var src = $(this).attr('src');
@@ -143,7 +143,7 @@ var leventimeDOM = {};
 
 				list.find('.slider-lk__del-item').one('click',function(){
 					$(this).closest('.slide-show__item').fadeOut(function(){
-						if($(this).index() > size - 5){
+						if($(this).index() > size - 4){
 							navPrev.trigger('click');
 						}
 						$(this).remove();
@@ -165,7 +165,7 @@ var leventimeDOM = {};
 
 				if(abscissa) {
 
-					if(nextItem.index() > size - 4 || nextItem.length == 0){
+					if(nextItem.index() > size - 3 || nextItem.length == 0){
 						transition = false;
 						return true;
 					}

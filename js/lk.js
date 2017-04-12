@@ -44,21 +44,10 @@ http://htmlpluscss.ru
 		}
 	});
 
-
-// mask
-	function maskSet(selector){
-		selector.each(function(){
-			var t = $(this);
-			var maskFormat;
-			if(t.hasClass('mask-tel')){
-				maskFormat = "7 (999) 999-99-99";
-			}
-			else if (t.hasClass('mask-time')) {
-				maskFormat = "99:99";
-			}
-			t.mask(maskFormat);
+	$('.lk-box__list-edit__remove').on('click',function(){
+		$(this).closest('.lk-box__list-edit__item').fadeOut(function(){
+			$(this).remove();
 		});
-	}
-	maskSet($('.mask-tel, .mask-time'));
+	});
 
 })(jQuery);
