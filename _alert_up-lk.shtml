@@ -238,6 +238,14 @@
 
 				</div>
 
+				<div class="alert_up__error-box">
+
+					<div class="alert_up__error-inner">
+						место под блок с ошибками.
+					</div>
+
+				</div>
+
 				<div class="alert_up__btns">
 
 					<a class="btn">Сохранить</a>
@@ -310,6 +318,14 @@
 
 				</div>
 
+				<div class="alert_up__error-box">
+
+					<div class="alert_up__error-inner">
+						место под блок с ошибками.
+					</div>
+
+				</div>
+
 				<div class="alert_up__btns">
 
 					<a class="btn">Сохранить</a>
@@ -345,6 +361,14 @@
 					</div>
 				</div>
 
+				<div class="alert_up__error-box">
+
+					<div class="alert_up__error-inner">
+						место под блок с ошибками.
+					</div>
+
+				</div>
+
 				<div class="alert_up__btns">
 
 					<a class="btn">отправить</a>
@@ -370,6 +394,14 @@
 					- не указано расписание <br>
 					- отсутствуют фотографии
 				</p>
+
+				<div class="alert_up__error-box">
+
+					<div class="alert_up__error-inner">
+						место под блок с ошибками.
+					</div>
+
+				</div>
 
 				<div class="alert_up__btns">
 
@@ -527,6 +559,14 @@
 
 				<p>Примечание: <span>Если день является выходным, в то время для этого дня необходимо оставить незаполненым.</span></p>
 
+				<div class="alert_up__error-box">
+
+					<div class="alert_up__error-inner">
+						место под блок с ошибками.
+					</div>
+
+				</div>
+
 				<div class="alert_up__btns">
 
 					<a class="btn">Сохранить</a>
@@ -566,6 +606,14 @@
 						<input type="checkbox" checked="checked" class="hidden-visible">
 						<i class="checkbox__pic"></i>
 					</label>
+
+				</div>
+
+				<div class="alert_up__error-box">
+
+					<div class="alert_up__error-inner">
+						место под блок с ошибками.
+					</div>
 
 				</div>
 
