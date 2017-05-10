@@ -362,6 +362,9 @@ table {
 .h1--line:after {
 	opacity: 0;
 }
+.h1__text {
+	display: inline-block;
+}
 .h1__line {
 	position: absolute;
 	bottom: 0;

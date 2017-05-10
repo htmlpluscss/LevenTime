@@ -10,6 +10,8 @@
 
 	<script defer src="/js/jquery.min.js"></script>
 	<script defer src="/js/jquery-ui.min.js"></script>
+	<script defer src="/js/jquery.mousewheel.js"></script>
+	<script defer src="/js/jquery.jscrollpane.min.js"></script>
 	<script defer src="/js/js.js"></script>
 	<script defer src="/js/lk.js"></script>
 

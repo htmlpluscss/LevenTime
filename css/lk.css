@@ -20,8 +20,7 @@ body {
 }
 .header__user {
 	color: #fff;
-	margin-right: 30px;
-	padding-left: 78px;
+	padding-left: 80px;
 	padding-top: 2px;
 	position: relative;
 }
@@ -31,26 +30,18 @@ body {
 	position: absolute;
 	top: -6px;
 	left: 0;
+
+	background-color: #0091d4;
+	font-size: 24px;
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
+	border-radius: 50%;
 }
 .header__user-img img {
 	display: block;
 	width: 60px;
 	height: 60px;
-	border-radius: 50%;
-	position: relative;
-}
-.header__user-img:hover::after {
-	background-color: #0091d4;
-	position: absolute;
-	width: 60px;
-	height: 60px;
-	top: 0;
-	left: 0;
-	content: 'K';
-	font-size: 24px;
-	line-height: 60px;
-	text-align: center;
-	color: #fff;
 	border-radius: 50%;
 }
 .header__user-company {
@@ -64,7 +55,17 @@ body {
 	font-size: 12px;
 	line-height: 14px;
 	display: block;
+	max-width: 160px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 	letter-spacing: 1.3px;
+}
+.header__user-text {
+	height: 44px;
+	width: 160px;
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .lk-box {
@@ -386,6 +387,10 @@ body {
 	position: absolute;
 	left: 0;
 	bottom: 10px;
+}
+.alert_up__w72 .alert_up__link {
+	margin-top: 62px;
+	display: block;
 }
 
 .alert_up__input:focus {

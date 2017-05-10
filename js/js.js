@@ -32,6 +32,12 @@ var leventimeDOM = {};
 				pageResize();
 			}, 100);
 		},
+		load: function(){
+		// scroll-pane
+			if($('.scroll-pane').length>0){
+				$('.scroll-pane').jScrollPane();
+			}
+		},
 		scroll: function(){
 			windowScrollTop = $window.scrollTop();
 
@@ -362,10 +368,6 @@ var leventimeDOM = {};
 		$(this).siblings('.input-box__error').addClass('hide');
 	});
 
-// scroll-pane
-	if($('.scroll-pane').length>0){
-		$('.scroll-pane').jScrollPane();
-	}
 
 // tooltip
 	$('.tooltip').each(function(){

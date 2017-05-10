@@ -27,9 +27,15 @@
 
 					<a class="header__user" data-alert-up="profile">
 
-						<span class="header__user-img"><img src="/img/user.png" alt=""></span>
-						<span class="header__user-company">KFC</span>
-						<span class="header__user-name">Fast Food Company</span>
+<!--
+если есть картинка
+ 						<span class="header__user-img"><img src="/img/user.png" alt=""></span>
+-->
+ 						<span class="header__user-img">К</span>
+ 						<span class="header__user-text">
+							<span class="header__user-company">KFC</span>
+							<span class="header__user-name">Fast Food Company</span>
+ 						</span>
 
 					</a>
 
